@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react'
-import { styles } from '../style'
+import { styles } from '../styles'
 import { Link } from 'react-router-dom'
 import { close, logo, menu } from '../assets'
 import { navLinks } from '../constants/constants'
 
-const Navbar = () => {
+function Navbar() {
   const [active, setActive] = useState("")
   const [toggle, setToggle] = useState(false)
   const [scrolled, setScrolled] = useState(false)
