@@ -1,5 +1,6 @@
 ## 3D Portfolio | Three.js Showcase App
-- Vite
+- Vite & React
 - Three.js
 - Three Fiber
-- Tailwindcss
+- Framer Motion
+- Tailwind CSS
