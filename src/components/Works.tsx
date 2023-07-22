@@ -20,14 +20,14 @@ interface ProjectCardProps {
   source_code_link: string
 }
 
-const ProjectCard = ({
+function ProjectCard({
   index,
   name,
   description,
   tags,
   image,
   source_code_link,
-}: ProjectCardProps) => {
+}: ProjectCardProps) {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt

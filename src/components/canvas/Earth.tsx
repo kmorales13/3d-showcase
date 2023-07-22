@@ -1,6 +1,5 @@
-import React from 'react'
 
-const Earth = () => {
+function Earth() {
   return (
     <div>Earth</div>
   )

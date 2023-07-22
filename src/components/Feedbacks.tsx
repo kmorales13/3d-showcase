@@ -1,6 +1,5 @@
-import React from 'react'
 
-const Feedbacks = () => {
+function Feedbacks() {
   return (
     <div>Feedbacks</div>
   )

@@ -2,7 +2,7 @@ import { technologies } from '../constants/constants'
 import SectionWrapper from '../hocs/SectionWrapper'
 import { BallCanvas } from './canvas'
 
-const Tech = () => {
+function Tech() {
   return (
     <div className='flex flex-row flex-wrap justify-center gap-10'>
       {technologies.map((technology) => (

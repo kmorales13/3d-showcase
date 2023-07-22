@@ -1,6 +1,5 @@
-import React from 'react'
 
-const Stars = () => {
+function Stars() {
   return (
     <div>Stars</div>
   )
