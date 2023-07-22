@@ -1,4 +1,4 @@
-## 3D Portfolio - Three.js Showcase App
+## 3D Portfolio | Three.js Showcase App
 - Vite
 - Three.js
 - Three Fiber
