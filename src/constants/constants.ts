@@ -208,67 +208,99 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Flexibble",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Flexibble | Next.js Showcase App",
     tags: [
       {
-        name: "react",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "react",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "graphql",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "grafbase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/kmorales13/nextjs-13-showcase",
   },
   {
-    name: "Job IT",
+    name: "CrowdFunding",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "CrowdFunding | Web 3.0 Showcase App",
     tags: [
+      {
+        name: "solidity",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "smart-contracts",
+        color: "green-text-gradient",
+      },
+      {
+        name: "thirdweb",
+        color: "pink-text-gradient",
+      },
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "tailwindcss",
         color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/kmorales13/web3-showcase",
   },
   {
-    name: "Trip Guide",
+    name: "3D Portfolio",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "3D Portfolio | Three.js Showcase App",
     tags: [
       {
-        name: "nextjs",
+        name: "vite",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "react",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "threejs",
         color: "pink-text-gradient",
+      },
+      {
+        name: "fiber",
+        color: "green-text-gradient",
+      },
+      {
+        name: "framer-motion",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "blue-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/kmorales13/3d-showcase",
   },
 ]
 

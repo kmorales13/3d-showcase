@@ -1,4 +1,5 @@
 import { technologies } from '../constants/constants'
+import SectionWrapper from '../hocs/SectionWrapper'
 import { BallCanvas } from './canvas'
 
 const Tech = () => {
@@ -13,4 +14,4 @@ const Tech = () => {
   )
 }
 
-export default Tech
+export default SectionWrapper(Tech)
