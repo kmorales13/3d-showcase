@@ -13,7 +13,7 @@ interface ServiceCardProps {
 
 function ServiceCard({ index, title, icon }: ServiceCardProps) {
   return (
-    <Tilt className='xs:w-[250px] w-full'>
+    <Tilt className='xs:w-[350px] w-full'>
       <motion.div
         variants={fadeIn("right", "spring", index * 0.5, 0.75)}
         className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
@@ -54,7 +54,7 @@ function About() {
         real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex flex-wrap gap-10 justify-center'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

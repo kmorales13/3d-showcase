@@ -15,10 +15,10 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  exportcomm,
+  rent,
+  freeagent,
+  ectotec,
   carrent,
   jobit,
   tripguide,
@@ -42,20 +42,16 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Mobile Developement",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "FullStack Developement",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ]
 
@@ -116,55 +112,69 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Engineer (FrontEnd)",
+    company_name: "RentPath",
+    icon: rent,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2021 - July 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Member of the UI/UX team. Developed performant components for Rent's flagship products using React and TypeScript.",
+      "Collaborated with cross-functional teams to deliver new features and\
+      enhancements, ensuring high-quality and timely releases.",
+      "Implemented automated testing using Jest and Testing-library, reducing the\
+      number of bugs and improving overall code quality.",
+      "Optimized the performance of Rent's web application, resulting in faster load\
+      times and improved user experience.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Sr. Software Engineer (FullStack)",
+    company_name: "FreeAgent CRM",
+    icon: freeagent,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2019 - Mar 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed FreeAgent's core web and mobile applications using ReactJS,\
+      ReactNative, and Redux.",
+      "Developed and maintained FreeAgent's database using PostgreSQL, ensuring high\
+      availability and data consistency.",
+      "Worked closely with product managers and designers to deliver new features and\
+      enhancements, ensuring high-quality and timely releases while gaining startup\
+      experience.",
+      "Mentored junior developers, providing guidance and support in their professional\
+      development.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Sr. Software Engineer (FullStack)",
+    company_name: "EctoTec",
+    icon: ectotec,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Sep 2018 - Dec 2018",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Maintained EctoTec's clients' core web applications using C#, ASP.Net, and Oracle\
+      DB.",
+      "Collaborated with cross-functional teams to deliver new features and\
+      enhancements, ensuring high-quality and timely releases.",
+      "Developed complex user interfaces using AngularJS and ReactJS, providing an\
+      intuitive user experience for EctoTec's clients.",
+      "Designed and maintained EctoTec's database using Oracle DB and PL/SQL,\
+      ensuring high availability and data consistency.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Sr. Software Engineer (FullStack)",
+    company_name: "ExportCommunity",
+    icon: exportcomm,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2018 - Sep 2018",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Designed and developed ExportCommunity's web platform using Angular 6 and\
+      ReactNative, from the ground up.",
+      "Implemented NodeJS and FeathersJS to build a performant and scalable API,\
+      reducing server load and improving overall application performance.",
+      "Configured OneSignal for real-time notification delivery to ExportCommunity's\
+      customers.",
     ],
   },
 ]
@@ -172,7 +182,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Kevin proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -180,7 +190,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Kevin does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -188,7 +198,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Kevin optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",

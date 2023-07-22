@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { styles } from '../styles'
 import { Link } from 'react-router-dom'
-import { close, logo, menu } from '../assets'
+import { close, avatar, menu } from '../assets'
 import { navLinks } from '../constants/constants'
 
 function Navbar() {
@@ -39,7 +39,7 @@ function Navbar() {
             window.scrollTo(0, 0)
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+          <img src={avatar} alt='avatar' className='w-9 h-9 object-contain rounded-full' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             3D Portfolio | Kevin M
           </p>
