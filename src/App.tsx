@@ -7,6 +7,7 @@ import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Tech from "./components/Tech"
 import Works from "./components/Works"
+import { StarsCanvas } from "./components/canvas"
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
         <Feedbacks />
         <div className='relative z-0'>
           <Contact />
-          StarsCanvas
+          <StarsCanvas />
         </div>
       </div>
     </BrowserRouter>

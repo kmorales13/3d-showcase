@@ -1,8 +1,8 @@
 
-function Stars() {
+function StarsCanvas() {
   return (
-    <div>Stars</div>
+    <div>StarsCanvas</div>
   )
 }
 
-export default Stars
+export default StarsCanvas
