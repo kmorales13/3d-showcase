@@ -75,6 +75,8 @@ function Contact() {
           alert("Ahh, something went wrong. Please try again.")
         }
       )
+
+    recaptchaRef.current?.reset()
   }
 
   return (

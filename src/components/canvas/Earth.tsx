@@ -15,7 +15,7 @@ function EarthCanvas() {
   return (
     <Canvas
       shadows
-      frameloop='always'
+      frameloop='demand'
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
       camera={{
