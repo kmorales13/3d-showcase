@@ -25,6 +25,7 @@ import exportcomm from "./company/exportcomm.png"
 import ectotec from "./company/ectotec.png"
 import rent from "./company/rent.png"
 import freeagent from "./company/freeagent.png"
+import brex from "./company/brex.png"
 
 import carrent from "./carrent.png"
 import jobit from "./jobit.png"
@@ -59,4 +60,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  brex,
 }
