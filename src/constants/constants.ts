@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  brex,
 } from "../assets"
 
 export const navLinks = [
@@ -112,27 +113,46 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Engineer (FrontEnd)",
-    company_name: "RentPath",
-    icon: rent,
+    title: "Software Engineer",
+    company_name: "Brex",
+    icon: brex,
     iconBg: "#383E56",
-    date: "May 2021 - July 2023",
+    date: "Jan 2024 - Feb 2024 (Laid-off)",
     points: [
-      "Member of the UI/UX team. Developed performant components for Rent's flagship products using React and TypeScript.",
-      "Collaborated with cross-functional teams to deliver new features and\
-      enhancements, ensuring high-quality and timely releases.",
-      "Implemented automated testing using Jest and Testing-library, reducing the\
-      number of bugs and improving overall code quality.",
-      "Optimized the performance of Rent's web application, resulting in faster load\
-      times and improved user experience.",
+      "Released a new, multi-tenant-enabled version of the React-powered KYC platform, \
+      facilitating Brex in onboarding larger businesses.",
+      "Squashed bugs, wrote unit tests with Jest, and bolstered app robustness utilizing\
+      DataDog to ensure a smoother user experience.",
     ],
   },
   {
-    title: "Sr. Software Engineer (FullStack)",
+    title: "Software Engineer",
+    company_name: "RentPath",
+    icon: rent,
+    iconBg: "#383E56",
+    date: "May 2021 - July 2023 (Laid-off)",
+    points: [
+      "Designed, developed, and implemented performant UI components in React and\
+      Next.js to successfully launch the completely refactored and newly rebranded Rent.com\
+      with 350M+ monthly visitors.",
+      "Built the new Rent Property Sites product from concept to launch, enabling business\
+      clients and management companies to develop custom sites showcasing their properties\
+      to convert prospects into paying renters.",
+      "Slashed load times by 30% and enhanced the UX by converting legacy code to\
+      TypeScript.",
+      "Implemented GraphQL for efficient data fetching and manipulation, optimizing API\
+      calls and enhancing scalability",
+      "Eliminated bugs in production, expanded code coverage to 95%, and improved overall\
+      code quality by implementing automated testing with Jest and Testing-library and\
+      championing a quality-centric engineering culture."
+    ],
+  },
+  {
+    title: "Sr. Software Engineer",
     company_name: "FreeAgent CRM",
     icon: freeagent,
     iconBg: "#E6DEDD",
-    date: "Jan 2019 - Mar 2020",
+    date: "Jan 2019 - Mar 2020 (Career Break)",
     points: [
       "Developed FreeAgent's core web and mobile applications using ReactJS,\
       ReactNative, and Redux.",
@@ -146,7 +166,7 @@ const experiences = [
     ],
   },
   {
-    title: "Sr. Software Engineer (FullStack)",
+    title: "Sr. Software Engineer",
     company_name: "EctoTec",
     icon: ectotec,
     iconBg: "#383E56",
@@ -163,7 +183,7 @@ const experiences = [
     ],
   },
   {
-    title: "Sr. Software Engineer (FullStack)",
+    title: "Software Engineer",
     company_name: "ExportCommunity",
     icon: exportcomm,
     iconBg: "#E6DEDD",
